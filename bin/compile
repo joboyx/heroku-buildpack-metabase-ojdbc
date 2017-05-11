@@ -1,5 +1,7 @@
 #!/bin/sh
 
+BIN_DIR=$(cd $(dirname $0); pwd)
+
 mkdir -p /app/plugins
 #wget --output-document=/app/plugins/ojdbc7.jar http://download.oracle.com/otn/utilities_drivers/jdbc/121010/ojdbc7.jar
-cp -f ../lib/ojdbc7.jar /app/plugins/.
+cp -f ${BIN_DIR}/lib/ojdbc7.jar /app/plugins/.
