@@ -1,0 +1,3 @@
+#!/bin/sh
+
+echo "ojdbc.jar for MetaBase deplyed!"
